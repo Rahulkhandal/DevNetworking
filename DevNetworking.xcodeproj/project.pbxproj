@@ -27,6 +27,7 @@
 		B7FC78DD2C1737790056BB33 /* QueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DC2C1737790056BB33 /* QueueExecutor.swift */; };
 		B7FC78DF2C1737DB0056BB33 /* BackgroundQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */; };
 		B7FC78E12C1738250056BB33 /* MainQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */; };
+		B7FC78E32C1756210056BB33 /* DefaultNetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78E22C1756210056BB33 /* DefaultNetworkModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B7FC78DC2C1737790056BB33 /* QueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExecutor.swift; sourceTree = "<group>"; };
 		B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundQueueExecutor.swift; sourceTree = "<group>"; };
 		B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueExecutor.swift; sourceTree = "<group>"; };
+		B7FC78E22C1756210056BB33 /* DefaultNetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				B7FC78BD2C15F9D80056BB33 /* NetworkModule.swift */,
+				B7FC78E22C1756210056BB33 /* DefaultNetworkModule.swift */,
 			);
 			path = NetworkModule;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				B7FC78DD2C1737790056BB33 /* QueueExecutor.swift in Sources */,
 				B7FC78C62C15FAF10056BB33 /* DataExtension.swift in Sources */,
 				B7FC78C92C15FCBA0056BB33 /* NetworkResponse.swift in Sources */,
+				B7FC78E32C1756210056BB33 /* DefaultNetworkModule.swift in Sources */,
 				B7FC78BA2C137A060056BB33 /* NetworkSession.swift in Sources */,
 				B7FC78D12C1732790056BB33 /* RequestBuilder.swift in Sources */,
 				B7FC78C32C15FA8E0056BB33 /* NetworkRequestType.swift in Sources */,
