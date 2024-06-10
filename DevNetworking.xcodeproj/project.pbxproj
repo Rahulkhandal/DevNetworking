@@ -20,6 +20,13 @@
 		B7FC78CC2C15FCFF0056BB33 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78CB2C15FCFF0056BB33 /* NetworkError.swift */; };
 		B7FC78CE2C15FD210056BB33 /* NetworkErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78CD2C15FD210056BB33 /* NetworkErrorConvertible.swift */; };
 		B7FC78D12C1732790056BB33 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78D02C1732790056BB33 /* RequestBuilder.swift */; };
+		B7FC78D42C1733F60056BB33 /* NetworkModuleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78D32C1733F60056BB33 /* NetworkModuleAction.swift */; };
+		B7FC78D62C1734450056BB33 /* AddAuthenticationTokenNetworkModuleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78D52C1734450056BB33 /* AddAuthenticationTokenNetworkModuleAction.swift */; };
+		B7FC78D82C1735960056BB33 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78D72C1735960056BB33 /* StringExtension.swift */; };
+		B7FC78DB2C1737120056BB33 /* QueueExecutorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DA2C1737120056BB33 /* QueueExecutorType.swift */; };
+		B7FC78DD2C1737790056BB33 /* QueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DC2C1737790056BB33 /* QueueExecutor.swift */; };
+		B7FC78DF2C1737DB0056BB33 /* BackgroundQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */; };
+		B7FC78E12C1738250056BB33 /* MainQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		B7FC78CB2C15FCFF0056BB33 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		B7FC78CD2C15FD210056BB33 /* NetworkErrorConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorConvertible.swift; sourceTree = "<group>"; };
 		B7FC78D02C1732790056BB33 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		B7FC78D32C1733F60056BB33 /* NetworkModuleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleAction.swift; sourceTree = "<group>"; };
+		B7FC78D52C1734450056BB33 /* AddAuthenticationTokenNetworkModuleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAuthenticationTokenNetworkModuleAction.swift; sourceTree = "<group>"; };
+		B7FC78D72C1735960056BB33 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B7FC78DA2C1737120056BB33 /* QueueExecutorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExecutorType.swift; sourceTree = "<group>"; };
+		B7FC78DC2C1737790056BB33 /* QueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExecutor.swift; sourceTree = "<group>"; };
+		B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundQueueExecutor.swift; sourceTree = "<group>"; };
+		B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueExecutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,8 @@
 		B78BDC302C1086F800EE0223 /* DevNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				B7FC78D92C1736E70056BB33 /* QueueExecutor */,
+				B7FC78D22C1733E00056BB33 /* Actions */,
 				B7FC78CF2C1732580056BB33 /* RequestBuilder */,
 				B7FC78C72C15FCA80056BB33 /* NetworkResponse */,
 				B7FC78C42C15FADE0056BB33 /* Extensions */,
@@ -148,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				B7FC78C52C15FAF10056BB33 /* DataExtension.swift */,
+				B7FC78D72C1735960056BB33 /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -166,6 +183,26 @@
 				B7FC78D02C1732790056BB33 /* RequestBuilder.swift */,
 			);
 			path = RequestBuilder;
+			sourceTree = "<group>";
+		};
+		B7FC78D22C1733E00056BB33 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC78D32C1733F60056BB33 /* NetworkModuleAction.swift */,
+				B7FC78D52C1734450056BB33 /* AddAuthenticationTokenNetworkModuleAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		B7FC78D92C1736E70056BB33 /* QueueExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC78DA2C1737120056BB33 /* QueueExecutorType.swift */,
+				B7FC78DC2C1737790056BB33 /* QueueExecutor.swift */,
+				B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */,
+				B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */,
+			);
+			path = QueueExecutor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,13 +316,20 @@
 			files = (
 				B78BDC332C1086F800EE0223 /* DevNetworking.docc in Sources */,
 				B7FC78CC2C15FCFF0056BB33 /* NetworkError.swift in Sources */,
+				B7FC78D62C1734450056BB33 /* AddAuthenticationTokenNetworkModuleAction.swift in Sources */,
+				B7FC78DD2C1737790056BB33 /* QueueExecutor.swift in Sources */,
 				B7FC78C62C15FAF10056BB33 /* DataExtension.swift in Sources */,
 				B7FC78C92C15FCBA0056BB33 /* NetworkResponse.swift in Sources */,
 				B7FC78BA2C137A060056BB33 /* NetworkSession.swift in Sources */,
 				B7FC78D12C1732790056BB33 /* RequestBuilder.swift in Sources */,
 				B7FC78C32C15FA8E0056BB33 /* NetworkRequestType.swift in Sources */,
+				B7FC78DB2C1737120056BB33 /* QueueExecutorType.swift in Sources */,
 				B7FC78C12C15FA300056BB33 /* NetworkRequest.swift in Sources */,
+				B7FC78D42C1733F60056BB33 /* NetworkModuleAction.swift in Sources */,
+				B7FC78DF2C1737DB0056BB33 /* BackgroundQueueExecutor.swift in Sources */,
+				B7FC78E12C1738250056BB33 /* MainQueueExecutor.swift in Sources */,
 				B7FC78CE2C15FD210056BB33 /* NetworkErrorConvertible.swift in Sources */,
+				B7FC78D82C1735960056BB33 /* StringExtension.swift in Sources */,
 				B7FC78BE2C15F9D80056BB33 /* NetworkModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
