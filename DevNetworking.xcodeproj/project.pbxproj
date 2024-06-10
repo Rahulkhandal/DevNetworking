@@ -19,6 +19,7 @@
 		B7FC78C92C15FCBA0056BB33 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78C82C15FCBA0056BB33 /* NetworkResponse.swift */; };
 		B7FC78CC2C15FCFF0056BB33 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78CB2C15FCFF0056BB33 /* NetworkError.swift */; };
 		B7FC78CE2C15FD210056BB33 /* NetworkErrorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78CD2C15FD210056BB33 /* NetworkErrorConvertible.swift */; };
+		B7FC78D12C1732790056BB33 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78D02C1732790056BB33 /* RequestBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B7FC78C82C15FCBA0056BB33 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
 		B7FC78CB2C15FCFF0056BB33 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		B7FC78CD2C15FD210056BB33 /* NetworkErrorConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorConvertible.swift; sourceTree = "<group>"; };
+		B7FC78D02C1732790056BB33 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		B78BDC302C1086F800EE0223 /* DevNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				B7FC78CF2C1732580056BB33 /* RequestBuilder */,
 				B7FC78C72C15FCA80056BB33 /* NetworkResponse */,
 				B7FC78C42C15FADE0056BB33 /* Extensions */,
 				B7FC78BF2C15FA150056BB33 /* NetworkRequest */,
@@ -155,6 +158,14 @@
 				B7FC78C82C15FCBA0056BB33 /* NetworkResponse.swift */,
 			);
 			path = NetworkResponse;
+			sourceTree = "<group>";
+		};
+		B7FC78CF2C1732580056BB33 /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC78D02C1732790056BB33 /* RequestBuilder.swift */,
+			);
+			path = RequestBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				B7FC78C62C15FAF10056BB33 /* DataExtension.swift in Sources */,
 				B7FC78C92C15FCBA0056BB33 /* NetworkResponse.swift in Sources */,
 				B7FC78BA2C137A060056BB33 /* NetworkSession.swift in Sources */,
+				B7FC78D12C1732790056BB33 /* RequestBuilder.swift in Sources */,
 				B7FC78C32C15FA8E0056BB33 /* NetworkRequestType.swift in Sources */,
 				B7FC78C12C15FA300056BB33 /* NetworkRequest.swift in Sources */,
 				B7FC78CE2C15FD210056BB33 /* NetworkErrorConvertible.swift in Sources */,
