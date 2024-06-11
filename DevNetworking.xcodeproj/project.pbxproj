@@ -28,6 +28,23 @@
 		B7FC78DF2C1737DB0056BB33 /* BackgroundQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */; };
 		B7FC78E12C1738250056BB33 /* MainQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */; };
 		B7FC78E32C1756210056BB33 /* DefaultNetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC78E22C1756210056BB33 /* DefaultNetworkModule.swift */; };
+		B7FC79222C175AC40056BB33 /* BackgroundQueueExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79212C175AC40056BB33 /* BackgroundQueueExecutorTests.swift */; };
+		B7FC79242C175BD50056BB33 /* MainQueueExecutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79232C175BD50056BB33 /* MainQueueExecutorTests.swift */; };
+		B7FC79272C175C960056BB33 /* NetworkErrorConvertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79262C175C960056BB33 /* NetworkErrorConvertibleTests.swift */; };
+		B7FC79292C175D7C0056BB33 /* NetworkErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79282C175D7C0056BB33 /* NetworkErrorTests.swift */; };
+		B7FC792D2C1763730056BB33 /* FakeNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC792C2C1763730056BB33 /* FakeNetworkRequest.swift */; };
+		B7FC792F2C1763DA0056BB33 /* NetworkRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC792E2C1763DA0056BB33 /* NetworkRequestTests.swift */; };
+		B7FC79312C1764A20056BB33 /* NetworkRequestTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79302C1764A20056BB33 /* NetworkRequestTypeTests.swift */; };
+		B7FC79342C1765170056BB33 /* DefaultRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79332C1765170056BB33 /* DefaultRequestBuilderTests.swift */; };
+		B7FC79372C1777E40056BB33 /* NetworkResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79362C1777E40056BB33 /* NetworkResponseTests.swift */; };
+		B7FC793A2C17798F0056BB33 /* DefaultNetworkModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79392C17798F0056BB33 /* DefaultNetworkModuleTests.swift */; };
+		B7FC793D2C177A210056BB33 /* FakeRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC793C2C177A210056BB33 /* FakeRequestBuilder.swift */; };
+		B7FC793F2C177A480056BB33 /* FakeNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC793E2C177A480056BB33 /* FakeNetworkSession.swift */; };
+		B7FC79412C177B8C0056BB33 /* FakeNetworkModuleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79402C177B8C0056BB33 /* FakeNetworkModuleAction.swift */; };
+		B7FC79432C177C440056BB33 /* FakeQueueExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79422C177C440056BB33 /* FakeQueueExecutor.swift */; };
+		B7FC79462C177FCF0056BB33 /* NetworkModuleActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79452C177FCF0056BB33 /* NetworkModuleActionTests.swift */; };
+		B7FC79482C1780540056BB33 /* AddAuthenticationTokenNetworkModuleActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC79472C1780540056BB33 /* AddAuthenticationTokenNetworkModuleActionTests.swift */; };
+		B7FC794B2C1780800056BB33 /* FakeAuthenticationTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FC794A2C1780800056BB33 /* FakeAuthenticationTokenProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +80,23 @@
 		B7FC78DE2C1737DB0056BB33 /* BackgroundQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundQueueExecutor.swift; sourceTree = "<group>"; };
 		B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueExecutor.swift; sourceTree = "<group>"; };
 		B7FC78E22C1756210056BB33 /* DefaultNetworkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkModule.swift; sourceTree = "<group>"; };
+		B7FC79212C175AC40056BB33 /* BackgroundQueueExecutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundQueueExecutorTests.swift; sourceTree = "<group>"; };
+		B7FC79232C175BD50056BB33 /* MainQueueExecutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueExecutorTests.swift; sourceTree = "<group>"; };
+		B7FC79262C175C960056BB33 /* NetworkErrorConvertibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorConvertibleTests.swift; sourceTree = "<group>"; };
+		B7FC79282C175D7C0056BB33 /* NetworkErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorTests.swift; sourceTree = "<group>"; };
+		B7FC792C2C1763730056BB33 /* FakeNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkRequest.swift; sourceTree = "<group>"; };
+		B7FC792E2C1763DA0056BB33 /* NetworkRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestTests.swift; sourceTree = "<group>"; };
+		B7FC79302C1764A20056BB33 /* NetworkRequestTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestTypeTests.swift; sourceTree = "<group>"; };
+		B7FC79332C1765170056BB33 /* DefaultRequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRequestBuilderTests.swift; sourceTree = "<group>"; };
+		B7FC79362C1777E40056BB33 /* NetworkResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseTests.swift; sourceTree = "<group>"; };
+		B7FC79392C17798F0056BB33 /* DefaultNetworkModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkModuleTests.swift; sourceTree = "<group>"; };
+		B7FC793C2C177A210056BB33 /* FakeRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeRequestBuilder.swift; sourceTree = "<group>"; };
+		B7FC793E2C177A480056BB33 /* FakeNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkSession.swift; sourceTree = "<group>"; };
+		B7FC79402C177B8C0056BB33 /* FakeNetworkModuleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkModuleAction.swift; sourceTree = "<group>"; };
+		B7FC79422C177C440056BB33 /* FakeQueueExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeQueueExecutor.swift; sourceTree = "<group>"; };
+		B7FC79452C177FCF0056BB33 /* NetworkModuleActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModuleActionTests.swift; sourceTree = "<group>"; };
+		B7FC79472C1780540056BB33 /* AddAuthenticationTokenNetworkModuleActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAuthenticationTokenNetworkModuleActionTests.swift; sourceTree = "<group>"; };
+		B7FC794A2C1780800056BB33 /* FakeAuthenticationTokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAuthenticationTokenProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +157,13 @@
 		B78BDC3C2C1086F900EE0223 /* DevNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
+				B7FC79442C177F910056BB33 /* NetworkModuleActionTests */,
+				B7FC79382C1778CB0056BB33 /* NetworkModule */,
+				B7FC79352C17659C0056BB33 /* NetworkResponse */,
+				B7FC79322C1764EB0056BB33 /* RequestBuilder */,
+				B7FC792A2C175EFC0056BB33 /* NetworkRequest */,
+				B7FC79252C175C7B0056BB33 /* NetworkError */,
+				B7FC79202C175A920056BB33 /* QueueExecutorTests */,
 				B78BDC3D2C1086F900EE0223 /* DevNetworkingTests.swift */,
 			);
 			path = DevNetworkingTests;
@@ -206,6 +247,96 @@
 				B7FC78E02C1738250056BB33 /* MainQueueExecutor.swift */,
 			);
 			path = QueueExecutor;
+			sourceTree = "<group>";
+		};
+		B7FC79202C175A920056BB33 /* QueueExecutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC79212C175AC40056BB33 /* BackgroundQueueExecutorTests.swift */,
+				B7FC79232C175BD50056BB33 /* MainQueueExecutorTests.swift */,
+			);
+			path = QueueExecutorTests;
+			sourceTree = "<group>";
+		};
+		B7FC79252C175C7B0056BB33 /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC79262C175C960056BB33 /* NetworkErrorConvertibleTests.swift */,
+				B7FC79282C175D7C0056BB33 /* NetworkErrorTests.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		B7FC792A2C175EFC0056BB33 /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC792B2C1763540056BB33 /* Fakes */,
+				B7FC792E2C1763DA0056BB33 /* NetworkRequestTests.swift */,
+				B7FC79302C1764A20056BB33 /* NetworkRequestTypeTests.swift */,
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		B7FC792B2C1763540056BB33 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC792C2C1763730056BB33 /* FakeNetworkRequest.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		B7FC79322C1764EB0056BB33 /* RequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC79332C1765170056BB33 /* DefaultRequestBuilderTests.swift */,
+			);
+			path = RequestBuilder;
+			sourceTree = "<group>";
+		};
+		B7FC79352C17659C0056BB33 /* NetworkResponse */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC79362C1777E40056BB33 /* NetworkResponseTests.swift */,
+			);
+			path = NetworkResponse;
+			sourceTree = "<group>";
+		};
+		B7FC79382C1778CB0056BB33 /* NetworkModule */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC793B2C1779F20056BB33 /* Fakes */,
+				B7FC79392C17798F0056BB33 /* DefaultNetworkModuleTests.swift */,
+			);
+			path = NetworkModule;
+			sourceTree = "<group>";
+		};
+		B7FC793B2C1779F20056BB33 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC793C2C177A210056BB33 /* FakeRequestBuilder.swift */,
+				B7FC793E2C177A480056BB33 /* FakeNetworkSession.swift */,
+				B7FC79402C177B8C0056BB33 /* FakeNetworkModuleAction.swift */,
+				B7FC79422C177C440056BB33 /* FakeQueueExecutor.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		B7FC79442C177F910056BB33 /* NetworkModuleActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC79492C1780720056BB33 /* Fakes */,
+				B7FC79452C177FCF0056BB33 /* NetworkModuleActionTests.swift */,
+				B7FC79472C1780540056BB33 /* AddAuthenticationTokenNetworkModuleActionTests.swift */,
+			);
+			path = NetworkModuleActionTests;
+			sourceTree = "<group>";
+		};
+		B7FC79492C1780720056BB33 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC794A2C1780800056BB33 /* FakeAuthenticationTokenProvider.swift */,
+			);
+			path = Fakes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,7 +473,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FC79432C177C440056BB33 /* FakeQueueExecutor.swift in Sources */,
+				B7FC79312C1764A20056BB33 /* NetworkRequestTypeTests.swift in Sources */,
+				B7FC79482C1780540056BB33 /* AddAuthenticationTokenNetworkModuleActionTests.swift in Sources */,
+				B7FC79372C1777E40056BB33 /* NetworkResponseTests.swift in Sources */,
+				B7FC79222C175AC40056BB33 /* BackgroundQueueExecutorTests.swift in Sources */,
 				B78BDC3E2C1086F900EE0223 /* DevNetworkingTests.swift in Sources */,
+				B7FC79242C175BD50056BB33 /* MainQueueExecutorTests.swift in Sources */,
+				B7FC794B2C1780800056BB33 /* FakeAuthenticationTokenProvider.swift in Sources */,
+				B7FC793F2C177A480056BB33 /* FakeNetworkSession.swift in Sources */,
+				B7FC79342C1765170056BB33 /* DefaultRequestBuilderTests.swift in Sources */,
+				B7FC793D2C177A210056BB33 /* FakeRequestBuilder.swift in Sources */,
+				B7FC79292C175D7C0056BB33 /* NetworkErrorTests.swift in Sources */,
+				B7FC79462C177FCF0056BB33 /* NetworkModuleActionTests.swift in Sources */,
+				B7FC79412C177B8C0056BB33 /* FakeNetworkModuleAction.swift in Sources */,
+				B7FC79272C175C960056BB33 /* NetworkErrorConvertibleTests.swift in Sources */,
+				B7FC792F2C1763DA0056BB33 /* NetworkRequestTests.swift in Sources */,
+				B7FC793A2C17798F0056BB33 /* DefaultNetworkModuleTests.swift in Sources */,
+				B7FC792D2C1763730056BB33 /* FakeNetworkRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +633,7 @@
 		B78BDC432C1086F900EE0223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -505,7 +654,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = sample.DevNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,6 +664,7 @@
 		B78BDC442C1086F900EE0223 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -535,7 +685,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = sample.DevNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
