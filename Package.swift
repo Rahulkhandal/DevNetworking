@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "DevNetworking",
     platforms: [
-        .iOS(.v17_2),   // Adjust the version as needed
+        .iOS(.v17),   // Adjust the version as needed
         // Add other platforms (watchOS, tvOS) as needed
     ],
     products: [
@@ -15,7 +15,7 @@ let package = Package(
         .binaryTarget(
             name: "DevNetworking",
             url: "https://github.com/Rahulkhandal/DevNetworking/OutputFramework/DevNetworking.xcframework.zip",
-            checksum: "f29df42b1f9f2d8bcd513f03a5850c2615521d86c500eabd38d08c907a6300ce"
+            checksum: "8038533c0480a05e6add0f765316522aac36f74545f353a6a4d7410ca2babe92"
         ),
     ]
 )
