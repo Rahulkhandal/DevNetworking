@@ -11,10 +11,11 @@ let package = Package(
     products: [
         .library(name: "DevNetworking", targets: ["DevNetworking"]),
     ],
+    dependencies: [],
     targets: [
         .binaryTarget(
             name: "DevNetworking",
-            url: "https://github.com/Rahulkhandal/DevNetworking/OutputFramework/DevNetworking.xcframework.zip",
+            url: "https://github.com/Rahulkhandal/DevNetworking/tree/main/OutputFramework/DevNetworking.xcframework.zip",
             checksum: "8038533c0480a05e6add0f765316522aac36f74545f353a6a4d7410ca2babe92"
         ),
     ]
