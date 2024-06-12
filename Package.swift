@@ -4,10 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "DevNetworking",
-    platforms: [
-        .iOS(.v17),   // Adjust the version as needed
-        // Add other platforms (watchOS, tvOS) as needed
-    ],
+    platforms: [.iOS("17.2")],
     products: [
         .library(name: "DevNetworking", targets: ["DevNetworking"]),
     ],
